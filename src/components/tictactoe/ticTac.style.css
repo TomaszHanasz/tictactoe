@@ -1,0 +1,16 @@
+.game__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    margin: 0 auto;
+    width: 25%
+}
+
+.tic-tac__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black
+}
